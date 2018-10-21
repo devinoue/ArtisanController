@@ -14,7 +14,9 @@ Route::get('artisan/{cmd}', 'ArtisanController');
 
 `migrate`させたあとは、`web.php`からルート宣言を消しておきましょう。
 
-#作った経緯
+
+
+# 作った経緯
 自分の使用するValue-serverでは、WEBサーバーとして使用するときのPHPと、SSHで接続したときのPHP cliが異なるバージョンなので、
 
 `php artisan`コマンドが使えずに困っていました。
